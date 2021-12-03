@@ -1,0 +1,2 @@
+#!/bin/bash
+for K in *phe; do /mnt/HDD-03/dilan/SNPs_V2/GWAS_analysis/emmax/emmax/emmax -v -d 10 -t /mnt/HDD-01/Dilan/final_duplicate_removed/emmax/input/quinoa_only_hard_filtered_snps_biallelic_FINAL_NO_duplicates_maxmiss0.5_minmeanDP5.maf_0.05 -p $K -k /mnt/HDD-01/Dilan/final_duplicate_removed/emmax/input/quinoa_only_hard_filtered_snps_biallelic_FINAL_NO_duplicates_maxmiss0.5_minmeanDP5.maf_0.05.hIBS.kinf -c /mnt/HDD-01/Dilan/final_duplicate_removed/emmax/input/pca_all_no_dup_GWAS.cov -o "emmax_P_K_"$K ; done 
